@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Sec3CollectionViewCell" id="gTV-IL-0wX" customClass="Sec3CollectionViewCell" customModule="ChakraCharge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="266" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="266" height="155"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sec3BackImage" translatesAutoresizingMaskIntoConstraints="NO" id="RMl-kj-VcQ">
+                        <rect key="frame" x="23" y="7.6666666666666714" width="220" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="220" id="K1M-ff-7Ql"/>
+                            <constraint firstAttribute="height" constant="140" id="Zbo-43-1OJ"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Afp-os-Wa2">
+                        <rect key="frame" x="30" y="24" width="100" height="89"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLh-ng-PwS" userLabel="name1">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Eg8-sJ-qm5"/>
+                                    <constraint firstAttribute="height" constant="60" id="T1P-Zv-DUn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="13"/>
+                                <color key="textColor" name="forTextColourInBothMode"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYa-yj-BdZ" userLabel="name2">
+                                <rect key="frame" x="0.0" y="67" width="100" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="7eI-fE-Uab"/>
+                                    <constraint firstAttribute="height" constant="22" id="tbJ-Hz-Ws3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="16"/>
+                                <color key="textColor" name="forTextColourInBothMode"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sec3GirlImage" translatesAutoresizingMaskIntoConstraints="NO" id="bQ5-L5-iLw">
+                        <rect key="frame" x="154" y="15" width="100" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="Qy9-hd-vNw"/>
+                            <constraint firstAttribute="height" constant="120" id="Xnd-qq-IHG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="RMl-kj-VcQ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="0WT-R3-Coe"/>
+                <constraint firstItem="RMl-kj-VcQ" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="AZ0-Ki-sUD"/>
+                <constraint firstItem="Afp-os-Wa2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="30" id="EQ6-fm-p6n"/>
+                <constraint firstAttribute="trailing" secondItem="bQ5-L5-iLw" secondAttribute="trailing" constant="12" id="P3Y-OM-HNZ"/>
+                <constraint firstItem="Afp-os-Wa2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="24" id="bhw-BM-1ST"/>
+                <constraint firstAttribute="bottom" secondItem="bQ5-L5-iLw" secondAttribute="bottom" constant="20" id="uEW-mK-6lR"/>
+            </constraints>
+            <size key="customSize" width="266" height="155"/>
+            <connections>
+                <outlet property="name1" destination="ZLh-ng-PwS" id="33r-Tu-AIX"/>
+                <outlet property="name2" destination="UYa-yj-BdZ" id="7W6-pg-EhE"/>
+                <outlet property="sec3ImageView" destination="RMl-kj-VcQ" id="vBn-UP-fgy"/>
+            </connections>
+            <point key="canvasLocation" x="12.213740458015266" y="16.549295774647888"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Sec3BackImage" width="376" height="256"/>
+        <image name="Sec3GirlImage" width="206" height="240"/>
+        <namedColor name="forTextColourInBothMode">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+    </resources>
+</document>
